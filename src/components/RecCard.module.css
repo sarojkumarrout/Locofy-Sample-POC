@@ -1,0 +1,89 @@
+.unsplash5mv818tzxeoIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0px 0px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 242px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bali {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.d3n {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.02em;
+  font-family: var(--components-button-large);
+  color: var(--color-darkgray);
+  text-align: left;
+}
+.baliParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 34px;
+  font-family: var(--font-baloo-bhai);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.holidayDetails {
+  align-self: stretch;
+  border-radius: 0px 0px var(--br-3xs) var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-base);
+}
+.recCard1 {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-base);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+@media screen and (max-width: 1100px) {
+  .recCard1 {
+    width: 50%;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .recCard1 {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}

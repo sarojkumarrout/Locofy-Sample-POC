@@ -1,0 +1,66 @@
+.departure {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+}
+.labelContainer {
+  height: 2px;
+  background-color: var(--primary-contrast);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs) 0px var(--padding-9xs);
+  box-sizing: border-box;
+}
+.active {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  align-self: stretch;
+  height: 54px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0px;
+  box-sizing: border-box;
+  font-family: var(--components-button-large);
+  font-size: var(--components-input-text-size);
+  color: var(--text-primary);
+  min-width: 193px;
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--other-outlined-border);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-2xs);
+}
+.departureField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--typography-caption-size);
+  color: var(--text-secondary);
+  font-family: var(--components-button-large);
+}

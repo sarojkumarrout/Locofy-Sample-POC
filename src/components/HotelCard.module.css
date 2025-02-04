@@ -1,0 +1,190 @@
+.matterhornSuitesImage {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.entireBungalow {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.matterhornSuites {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.night {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+}
+.stayDetailsRows {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.videoIcon {
+  width: 25px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.stayDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.reviews {
+  position: absolute;
+  top: 0px;
+  left: 53.6px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 216.4px;
+}
+.div {
+  position: absolute;
+  top: 0px;
+  left: 20.3px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.vectorIcon {
+  position: absolute;
+  height: 90.53%;
+  width: 37.47%;
+  top: 0%;
+  right: 62.53%;
+  bottom: 9.47%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 44.3px;
+  height: 19px;
+  color: var(--color-darkslategray-300);
+}
+.rating {
+  align-self: stretch;
+  position: relative;
+  height: 19px;
+  color: var(--color-cornflowerblue-200);
+}
+.button {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+  text-align: left;
+}
+.moreDetailsButton {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender-200);
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotelCard {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-smi);
+  gap: var(--gap-4xl);
+  width: 25%;
+}
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-100);
+  cursor: pointer;
+}
+.hotelCard1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xs);
+  box-sizing: border-box;
+  width: 25%;
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+
+@media screen and (max-width: 1200px) {
+  .hotelCard {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hotelCard {
+    width: 100%;
+  }
+
+  .hotelCard1 {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .matterhornSuites {
+    font-size: var(--font-size-xl);
+  }
+
+  .moreDetailsButton {
+    width: 100% !important;
+  }
+
+  .hotelCard {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .hotelCard1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+}

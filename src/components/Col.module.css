@@ -1,0 +1,98 @@
+.parisimageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.paris {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--components-button-large);
+  color: var(--primary-contrast);
+  text-align: left;
+}
+.div {
+  position: absolute;
+  top: 21px;
+  left: 0px;
+  font-size: var(--font-size-19xl);
+  line-height: 38px;
+  font-family: var(--font-baloo-bhai);
+  color: var(--primary-contrast);
+  text-align: right;
+  display: inline-block;
+  width: 90.9px;
+}
+.from {
+  position: absolute;
+  top: 0px;
+  left: 38.4px;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--components-button-large);
+  color: var(--primary-contrast);
+  text-align: right;
+  display: inline-block;
+  width: 52.5px;
+}
+.details {
+  width: 90.9px;
+  position: relative;
+  height: 59px;
+}
+.destinationDetails {
+  position: absolute;
+  width: calc(100% - 0.6px);
+  top: 0px;
+  right: 0.3px;
+  left: 0.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.pariscard {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  height: 182px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.col1 {
+  cursor: pointer;
+  border: none;
+  padding: 0px var(--padding-base);
+  background-color: transparent;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1100px) {
+  .col1 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .col1 {
+    width: 100%;
+  }
+}

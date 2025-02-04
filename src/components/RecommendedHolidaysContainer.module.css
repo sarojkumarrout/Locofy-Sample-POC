@@ -1,0 +1,113 @@
+.recommendedHolidays {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.viewAllHolidays {
+  width: 165.9px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.arrowRightIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewAllHolidaysParent {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: var(--primary-contrast);
+  width: 199.9px;
+  border-radius: var(--br-12xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.recTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.recCardsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.viewAllHolidays1 {
+  width: 165.9px;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.viewAllBottom {
+  width: 199.9px;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-300);
+}
+.recommendedHolidaysContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+
+@media screen and (max-width: 1100px) {
+  .viewAllHolidaysParent {
+    display: none;
+  }
+
+  .recCardsContainer {
+    margin-left: -16px;
+    margin-right: -16px;
+    flex-wrap: wrap;
+  }
+
+  .viewAllHolidays1 {
+    width: auto;
+  }
+
+  .viewAllBottom {
+    display: flex;
+    mrgin-top: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .recommendedHolidays {
+    font-size: var(--font-size-3xl);
+  }
+}

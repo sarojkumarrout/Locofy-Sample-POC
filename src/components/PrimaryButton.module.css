@@ -1,0 +1,43 @@
+.primaryButtonChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-cornflowerblue-200);
+  z-index: 0;
+}
+.searchFlights {
+  height: 21px;
+  width: 163px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.primaryButton {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-6xl-5) var(--padding-9xl-5);
+  background-color: transparent;
+  width: 220px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}

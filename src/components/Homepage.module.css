@@ -1,0 +1,830 @@
+.bannerGradient {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+  height: 639.9px;
+}
+.bannerBackground {
+  position: absolute;
+  width: 100%;
+  top: 0.4px;
+  right: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 640px;
+  object-fit: cover;
+}
+.letsExplore {
+  align-self: stretch;
+  position: relative;
+  line-height: 67px;
+}
+.findTheBest {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-family: var(--components-button-large);
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.searchFlights {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.radio {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.radio1 {
+  position: absolute;
+  top: 0px;
+  left: 106px;
+}
+.flightType {
+  width: 216.5px;
+  position: relative;
+  height: 38px;
+}
+.flightOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formTitleGroup {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  gap: var(--gap-8xs);
+}
+.departureField {
+  align-self: stretch;
+  flex: 1;
+}
+.arrival {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 12px;
+}
+.labelContainer {
+  background-color: var(--primary-contrast);
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs);
+  box-sizing: border-box;
+}
+.op {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  width: 24px;
+  border-radius: var(--br-45xl);
+  background-color: var(--grey-grey-400);
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.chip1 {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.typography {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+  text-align: left;
+  font-size: var(--components-chip-size);
+  color: var(--text-primary);
+}
+.cancelIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container {
+  border-radius: var(--br-base);
+  background-color: var(--grey-grey-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.chip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.muiautocompletetag {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.losAngelesLa {
+  flex: 1;
+  position: relative;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  color: var(--text-primary);
+  text-align: left;
+}
+.active {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0px;
+  gap: var(--gap-5xs);
+  text-align: center;
+  color: var(--grey-grey-700);
+}
+.input {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--other-outlined-border);
+  box-sizing: border-box;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+}
+.arrivalField {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputsRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs);
+  gap: var(--gap-3xs);
+}
+.button {
+  width: 147px;
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.searchFlightsButton {
+  width: 164px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-orange-200);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--primary-contrast);
+}
+.formInputsRow {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--typography-caption-size);
+  color: var(--text-secondary);
+}
+.searchForm {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+.searchContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 140px;
+  box-sizing: border-box;
+  gap: 43px;
+}
+.searchSection {
+  align-self: stretch;
+  position: relative;
+  height: 640px;
+}
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-42xl);
+  font-family: var(--font-baloo-bhai);
+}
+.recentSearches {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.recentSearches1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.prepareMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.flightDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-17xl);
+  color: var(--color-lightgray);
+}
+.upcomingFlightSection1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.upcomingFlightSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mostPopularDestinations {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-darkslategray-300);
+}
+.titleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.viewAllDestinations {
+  width: 197.3px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-300);
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.viewAllTop {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: var(--primary-contrast);
+  width: 231.4px;
+  border-radius: var(--br-12xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.destinationsTitles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cardsContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.viewAllDestinations1 {
+  width: 197.3px;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.viewAllBottom {
+  width: 231.4px;
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+}
+.popDestinationsMain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--color-cornflowerblue-300);
+}
+.homeContents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-61xl);
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 1280px;
+  text-align: left;
+  color: var(--color-darkslategray-300);
+}
+.subscribeSectionBackground {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 530px;
+  object-fit: cover;
+}
+.formTitle {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fillInYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 34px;
+  font-family: var(--components-button-large);
+  color: var(--color-slategray);
+  text-align: left;
+}
+.formText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.op2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--typography-caption-size);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  font-family: var(--components-button-large);
+  color: var(--grey-grey-700);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chip5 {
+  position: relative;
+  font-size: var(--components-chip-size);
+  letter-spacing: 0.16px;
+  line-height: 18px;
+  font-family: var(--components-button-large);
+  color: var(--text-primary);
+  text-align: left;
+}
+.typography2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-7xs);
+}
+.yourName {
+  flex: 1;
+  position: relative;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-family: var(--components-button-large);
+  color: var(--text-secondary);
+  text-align: left;
+}
+.closeIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.unstylediconbutton {
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+}
+.iconbutton {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.muiAutocompleteIndicator {
+  width: 28px;
+  position: relative;
+  height: 28px;
+  display: none;
+}
+.inactive {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0px;
+  gap: var(--gap-5xs);
+}
+.input1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--other-outlined-border);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs);
+}
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: var(--color-orange-200);
+  width: 164px;
+  border-radius: var(--br-9xs);
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button1:hover {
+  background-color: var(--color-darkorange);
+}
+.form {
+  margin: 0;
+  align-self: stretch;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.03);
+  border-radius: var(--br-xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 28px var(--padding-11xl);
+  gap: var(--gap-mid);
+}
+.shareYourTravelsForm {
+  position: relative !important;
+  top: 52px;
+  left: auto !important;
+  width: 549px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribeSection {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-aliceblue);
+  height: 529px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footerSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-cornflowerblue-300);
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-contrast);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 69px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--primary-contrast);
+  font-family: var(--components-button-large);
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+
+@media screen and (max-width: 1100px) {
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+
+  .formInputsRow {
+    flex-direction: column;
+  }
+
+  .searchForm {
+    flex-direction: column;
+  }
+
+  .searchContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+
+  .recentSearches1 {
+    flex-direction: column;
+  }
+
+  .prepareMenu {
+    width: 100%;
+  }
+
+  .flightDetails {
+    flex-direction: column;
+  }
+
+  .upcomingFlightSection {
+    display: block;
+  }
+
+  .viewAllTop {
+    display: none;
+  }
+
+  .cardsContainer {
+    margin-left: -16px;
+    margin-right: -16px;
+    flex-wrap: wrap;
+    margin-top: -16px;
+    margin-bottom: -16px;
+  }
+
+  .viewAllDestinations1 {
+    width: auto;
+  }
+
+  .viewAllBottom {
+    display: flex;
+    margin-top: 16px;
+  }
+
+  .homeContents {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+
+  .shareYourTravelsForm {
+    padding: var(--padding-5xl) 0px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .letsExplore {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+
+  .searchFlights {
+    width: 100%;
+    padding-bottom: var(--padding-3xs);
+    margin-bottom: 6px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eaeaea;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .flightType {
+    width: 100% !important;
+  }
+
+  .flightOptions {
+    width: 100%;
+  }
+
+  .formTitleGroup {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .departureField {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .arrivalField {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .inputsRow {
+    flex-direction: column;
+  }
+
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+
+  .searchForm {
+    margin-top: 20px;
+  }
+
+  .mostPopularDestinations {
+    font-size: var(--font-size-3xl);
+  }
+
+  .titleContainer {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .destinationsTitles {
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .button1 {
+    width: 100%;
+  }
+  .button1:hover {
+    background-color: #9e6104;
+  }
+
+  .shareYourTravelsForm {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    left: auto !important;
+    width: 100%;
+  }
+
+  .homepage {
+    width: 100%;
+  }
+  .homepage:hover {
+    background-color: var(--color-orange-200);
+  }
+}

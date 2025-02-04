@@ -1,0 +1,21 @@
+.beds {
+  position: relative;
+  font-size: var(--components-input-text-size);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+  text-align: center;
+}
+.pilldefault {
+  cursor: pointer;
+  border: 1px solid var(--primary-contrast);
+  padding: var(--padding-2xs) var(--padding-2xl);
+  background-color: var(--primary-contrast);
+  border-radius: var(--br-8xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,155 @@
+.hotelIcon {
+  width: 65.4px;
+  position: relative;
+  height: 65.4px;
+}
+.hotel1 {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.hotel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  text-align: left;
+}
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-base);
+  background-color: var(--color-sandybrown);
+  width: 65.4px;
+  height: 65.4px;
+}
+.ticketIcon {
+  position: absolute;
+  height: 47.86%;
+  width: 48.32%;
+  top: 25.99%;
+  right: 25.84%;
+  bottom: 26.15%;
+  left: 25.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.attractions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.background1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gold);
+  width: 65.4px;
+  height: 65.4px;
+}
+.trainIcon {
+  position: absolute;
+  height: 48.47%;
+  width: 41.13%;
+  top: 26.45%;
+  right: 29.51%;
+  bottom: 25.08%;
+  left: 29.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.background2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-base);
+  background-color: var(--color-cornflowerblue-100);
+  width: 70px;
+  height: 65.4px;
+}
+.taxiIcon1 {
+  position: absolute;
+  height: 40.21%;
+  width: 40.57%;
+  top: 29.66%;
+  right: 29.71%;
+  bottom: 30.12%;
+  left: 29.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.taxiIcon {
+  width: 70px;
+  position: relative;
+  height: 65.4px;
+}
+.taxi1 {
+  width: 32.1px;
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.background3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-base);
+  background-color: var(--color-yellowgreen);
+  width: 65.4px;
+  height: 65.4px;
+}
+.movieIcon {
+  position: absolute;
+  height: 35.63%;
+  width: 39.91%;
+  top: 32.26%;
+  right: 30.12%;
+  bottom: 32.11%;
+  left: 29.97%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tripMenus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--components-button-large-size);
+  color: var(--color-gray-100);
+  font-family: var(--components-button-large);
+}
+
+@media screen and (max-width: 650px) {
+  .hotel {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .attractions {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .tripMenus {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-right: -28px;
+  }
+}

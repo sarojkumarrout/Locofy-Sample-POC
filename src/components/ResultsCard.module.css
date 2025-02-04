@@ -1,0 +1,154 @@
+.resultsImageIcon {
+  height: 220px;
+  width: 260px;
+  position: relative;
+  border-radius: var(--br-3xs) 0px 0px var(--br-3xs);
+  object-fit: cover;
+}
+.kingBedStandard {
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.holidayInnExpre {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.vectorIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+.reviews {
+  position: relative;
+  letter-spacing: 0.04em;
+  color: var(--color-cornflowerblue-200);
+}
+.reviewsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.attributes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.s286 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.night {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+  font-size: var(--font-size-sm);
+}
+.stayDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.locationDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs-6);
+  font-size: var(--font-size-3xl);
+}
+.cardDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.videoIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cardDetailsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.cardContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px var(--padding-mini-4);
+  box-sizing: border-box;
+  min-width: 178px;
+}
+.resultsCard {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-500);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xs) var(--padding-12xs-6) 0px;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--components-input-text-size);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+
+@media screen and (max-width: 1050px) {
+  .holidayInnExpre {
+    font-size: var(--font-size-lg);
+  }
+
+  .s286 {
+    font-size: var(--font-size-lg);
+  }
+}
+@media screen and (max-width: 750px) {
+  .resultsImageIcon {
+    flex: 1;
+  }
+
+  .resultsCard {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xs);
+    padding-top: var(--padding-12xs);
+    box-sizing: border-box;
+  }
+}
